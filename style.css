@@ -1,0 +1,117 @@
+header{
+  justify-content: space-between;
+display: flex;
+background-color: white;
+width: 98%;
+position: fixed;
+z-index: 999;
+align-items: center;
+padding: 9px 10px;
+}
+.logo{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.navigation a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+  color: bisque;
+}
+section{
+  padding: 100px 200px;
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+}
+.main h2{
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span{
+  display: inline-block;
+  margin-top: 10px;
+  color: aqua;
+  font-size: 3em;
+  font-weight: 600;
+}
+.main h3{
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main-btn{
+  color: azure;
+  background-color: black;
+  text-decoration: none;
+  font-family: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.main-btn:hover{
+  background-color: wheat;
+  transform: scale(1.1);
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.pytm{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.info{
+  text-align: center;
+}
+.info h3{
+  background: whitesmoke;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+img{
+  background: whitesmoke;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+}
+@media (max-width:1023px){
+  header{
+    padding: 12px 20px;
+  }
+  .navigation a{
+    padding: 10px;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+}
